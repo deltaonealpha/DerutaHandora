@@ -133,13 +133,19 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit(
-                     "Bot is Alive\n"
+                     "(•_•) \n"
+                     "( •_•)>⌐■-■ \n"
+                     "(⌐■_■) \n"
+                     "Me is Alive \n"
                      "\n"
                      f"------------------------------------ \n"
                      f"....................../¯/) \n....................,/¯../ \n.................../..../ \n............./'¯/'...'/¯¯·¸ \n........../'/.../..../......./¨¯\ \n........('(...'...'.... ¯~/'...') \n.........\.................'...../ \n..........''...\.......... _.·' \n............\..............( \n..............\.............\... \n"
                      f"\n"
                      f"Telethon : {version.__version__} \n"
                      f"Python : {python_version()} \n"
+                     f"DerutaHandora Userbot by deltaonealpha"
+                     f"-- Pranav Balaji --"
+                     f"A custom OUB fork with certain personal inputs and additionals from PPE. Focuses on being stable, classy and brusque 😎😎"
                      f"User : {DEFAULTUSER} \n"
                      f"\n"
                      )    

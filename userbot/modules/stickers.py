@@ -19,16 +19,16 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
-    "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
-    "hehe me stel ur stikér\nhehe.",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
+    "Using Bitchery { ;) } to kang this sticker...",
+    "Plagiarising this shitt hehe...",
+    "Inviting this sticker over to my ̶b̶e̶d̶  pacc...",
+    "Hehah I keng-kang your sticcaar...",
+    "Hey that's a nice sticccaarr!\nMind if I kang?! Well I'll kang anyways..",
+    "hehe me stel ur stikér whilé u luk thare\nhehe.",
+    "Ay you bitchasscunt look over there (☉｡☉)!→\nWhile I keng-kang this...",
+    "Roses are red violets are blue asses are peach, kanging this sticker so my pacc looks cool",
+    "ImPRiSONiNg this sticckeaar...",
+    "Mr.Stél Your Sticker is stealing this sticker hehehahah... ",
 ]
 
 
@@ -74,7 +74,7 @@ async def kang(args):
             await args.edit("`Unsupported File!`")
             return
     else:
-        await args.edit("`I can't kang that...`")
+        await args.edit("`I can't kang that master.......`")
         return
 
     if photo:
@@ -125,7 +125,7 @@ async def kang(args):
                     pack += 1
                     packname = f"a{user.id}_by_{user.username}_{pack}"
                     packnick = f"@{user.username}'s kang pack Vol.{pack}"
-                    await args.edit("`Switching to Pack " + str(pack) +
+                    await args.edit("`Sire, switching to Pack " + str(pack) +
                                     " due to insufficient space`")
                     await conv.send_message(packname)
                     x = await conv.get_response()
@@ -236,7 +236,7 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
 
-        await args.edit(f"`Sticker kanged successfully!`\
+        await args.edit(f"`kanged successfully!`\
             \nPack can be found [here](t.me/addstickers/{packname})",
                         parse_mode='md')
 
