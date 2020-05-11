@@ -66,8 +66,8 @@ def register(**args):
                 # Ignore edits that take place in channels.
                 return
                        
-            #if check.via_bot_id and not trigger_on_inline:
-             #   return
+            if check.via_bot_id and not trigger_on_inline:
+                return
              
             if check.via_bot_id and not insecure and check.out:
                 # Ignore outgoing messages via inline bots for security reasons

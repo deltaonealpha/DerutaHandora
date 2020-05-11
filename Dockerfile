@@ -1,14 +1,10 @@
 # We're using Alpine Edge
 FROM alpine:edge
 
-#
 # We have to uncomment Community repo for some packages
-#
 RUN sed -e 's;^#http\(.*\)/edge/community;http\1/edge/community;g' -i /etc/apk/repositories
 
-#
 # Installing Packages
-#
 RUN apk add --no-cache=true --update \
     coreutils \
     bash \
@@ -75,7 +71,7 @@ RUN python3 -m ensurepip \
 # Clone repo and prepare working directory
 #
 
-RUN git clone https://github.com/JeelPatel231/OpenUserBot -b sql-extended /root/userbot
+RUN git clone https://github.com/deltaonealpha/DerutaHandora -b sql-extended /root/userbot
 RUN mkdir /root/userbot/.bin
 WORKDIR /root/userbot/
 ENV PATH="/root/userbot/.bin:$PATH"
