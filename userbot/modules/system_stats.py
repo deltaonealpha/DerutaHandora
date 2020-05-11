@@ -145,7 +145,7 @@ async def amireallyalive(alive):
                      f"Python : {python_version()} \n"
                      f"DerutaHandora Userbot by deltaonealpha"
                      f"-- Pranav Balaji --"
-                     f"A custom OUB fork with certain personal inputs and additionals from PPE. Focuses on being stable, classy and brusque 😎😎"
+                     f"/n"
                      f"User : {DEFAULTUSER} \n"
                      f"\n"
                      )    
