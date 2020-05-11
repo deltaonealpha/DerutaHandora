@@ -6,7 +6,9 @@
 <p align="center">&nbsp;</p>
 <h2 align="center">How To Host</h2>
 <h5 align="center">The easiest way to deploy this derpfest! is click on the image below</h5>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/deltaonealpha/DerutaHandora/tree/master"> <img src="https://telegra.ph/file/e30939254c9ece5233ee0.jpg" alt="Deploy to Heroku" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/deltaonealpha/DerutaHandora/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a>
+<a href="https://colab.research.google.com/github/deltaonealpha/DerutaHandora/blob/master/stringsession.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+</p>
 <p align="center">&nbsp;</p>
 <h2 align="center">Credits</h2>
 <p align="center">Huge thanks to <a href="https://github.com/mkaraniya/OpenUserBot/graphs/contributors">everyone</a> who have helped make this userbot awesome!!</p>
