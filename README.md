@@ -8,7 +8,9 @@
 <h5 align="center">The easiest way to deploy this derpfest! is click on the image below</h5>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/deltaonealpha/DerutaHandora/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a>
 <h4 align="center">Open colab and click 'run' to run this on the cloud, else use termux!<h4>
+<p align="center">
 <a href="https://colab.research.google.com/github/deltaonealpha/DerutaHandora/blob/master/stringsession.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+</p>
 </p>
 <p align="center">&nbsp;</p>
 <h2 align="center">Credits</h2>
