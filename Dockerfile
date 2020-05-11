@@ -71,7 +71,7 @@ RUN python3 -m ensurepip \
 # Clone repo and prepare working directory
 #
 
-RUN git clone https://github.com/deltaonealpha/DerutaHandora -b sql-extended /root/userbot
+RUN git clone https://github.com/deltaonealpha/DerutaHandora -b master /root/userbot
 RUN mkdir /root/userbot/.bin
 WORKDIR /root/userbot/
 ENV PATH="/root/userbot/.bin:$PATH"
