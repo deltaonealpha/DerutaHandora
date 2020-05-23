@@ -22,7 +22,7 @@ except AttributeError:
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "Sleeping shirtless with Fubuki \n  Please leave a message and make me feel even more important than I already am.",
+    "My master's AFK. \n Reason: \n Sleeping shirtless with Fubuki \n  Please leave a message and make me feel even more important than I already am.",
 ]
 # =================================================================
 
