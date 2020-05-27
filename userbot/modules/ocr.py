@@ -42,7 +42,7 @@ async def ocr_space_file(filename,
     return r.json()
 
 
-@register(pattern=r".ocr (.*)", outgoing=True)
+@register(pattern=r"^\.ocr (.*)", outgoing=True)
 async def ocr(event):
     await event.edit("`Reading...`")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
@@ -57,7 +57,7 @@ async def ocr(event):
     except BaseException:
         await event.edit("`Couldn't read it.`\n`I guess I need new glasses.`")
     else:
-        await event.edit(f"`Here's what I could read from it:`\n\n{ParsedText}"
+        await event.edit(f"`Sire, here's what I could read from it:`\n\n{ParsedText}"
                          )
     os.remove(downloaded_file_name)
 
