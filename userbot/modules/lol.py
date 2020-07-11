@@ -1,11 +1,15 @@
 """cmd .lol"""
 
 from telethon import events
-from uniborg.util import admin_cmd
+import io
+import urllib.request
+from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
+from userbot import bot, CMD_HELP
+from userbot.events import register
 
 
-@borg.on(admin_cmd(pattern="lol"))
-async def _(event):
+@register(outgoing=True, pattern="^.kang")
+async def _(args):
     if event.fwd_from:
         return
-    await event.edit("😂\n😂\n😂\n😂\n😂😂😂😂\n\n   😂😂😂\n 😂         😂\n😂           😂\n 😂         😂\n   😂😂😂\n\n😂\n😂\n😂\n😂\n😂😂😂😂")
+    await args.edit("😂\n😂\n😂\n😂\n😂😂😂😂\n\n   😂😂😂\n 😂         😂\n😂           😂\n 😂         😂\n   😂😂😂\n\n😂\n😂\n😂\n😂\n😂😂😂😂")
