@@ -1,5 +1,5 @@
 <h1 align="center">Project DerutaHandora</h1>
-<h3 align="center">A custom OUB fork with certain personal inputs and additionals from PPE. Focuses on being stable, classy and brusque 😎😎.</h3>
+<h3 align="center">A OUB fork with certain personal inputs and additions from other bots. Focuses on being stable, classy and brusque 😎😎.</h3>
 <h4 align="center">Based on RaphielGang's <a href="https://github.com/RaphielGang/Telegram-UserBot">Paperplane</a> Telegram userbot...</h4>
 <h4 align="center">...or rather, it's Paperplane + insane extras from the community.</h4>
 <p align="center"><a href="#how-to-host">How To Host</a> | <a href="#updates-and-support">Updates and Support</a> | <a href="#credits">Credits</a> | <a href="#license">License</a></p>
